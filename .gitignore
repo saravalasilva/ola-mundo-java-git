@@ -1,0 +1,120 @@
+# ==========================================
+# Java - Compilação e Binários
+# ==========================================
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Pasta padrão de compilação do Java (geral e Eclipse)
+bin/
+/bin/
+doc/
+
+# ==========================================
+# Eclipse IDE
+# ==========================================
+.metadata/
+.recommenders/
+extracted.mqandalledger
+remote.cache
+*.pydevproject
+.htmlpattern
+.beans
+.springBeans
+.blueprint
+
+# Arquivos temporários do Eclipse e plugins
+*.launch
+.factorypath
+.processor/
+
+# IMPORTANTE SOBRE O ECLIPSE:
+# Por padrão, muitos desenvolvedores Java que usam APENAS o Eclipse mantêm os arquivos 
+# .classpath e .project no repositório se a equipe inteira usar a mesma IDE. 
+# Se você ou sua equipe usam ferramentas de build como Maven (pom.xml) ou Gradle, 
+# descomente as 3 linhas abaixo para ignorar as configurações locais do Eclipse:
+#.classpath
+#.project
+#.settings/
+
+# ==========================================
+# IntelliJ IDEA
+# ==========================================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+/out/
+
+# ==========================================
+# Visual Studio Code (VS Code)
+# ==========================================
+.vscode/
+
+# ==========================================
+# NetBeans IDE
+# ==========================================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.netbeans_derby/
+
+# ==========================================
+# Ferramentas de Build (Maven & Gradle)
+# ==========================================
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+pom.xml.note
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+/build/
+.gradle-enterprise/
+
+# ==========================================
+# Arquivos de Sistema Operacional
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.Trashes
+VolumeIcon.icns
+.com.apple.timemachine.donotbackup
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.trash
